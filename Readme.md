@@ -10,3 +10,6 @@ jupyter notebook \
     --notebook-dir="." \
     --ip=0.0.0.0 --port=3225
 ```
+```
+python -m debugpy --listen 4444 test.py
+```
