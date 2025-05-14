@@ -13,3 +13,21 @@ jupyter notebook \
 ```
 python -m debugpy --listen 4444 test.py
 ```
+
+
+## Enable push to git
+```
+nano ~/.gitconfig
+```
+```
+code ~/.gitconfig
+```
+
+
+```
+[user]
+# Please adapt and uncomment the following lines:
+        name = <Name>
+        email = <github email>
+        username = <github username>
+```
