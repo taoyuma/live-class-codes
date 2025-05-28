@@ -14,6 +14,10 @@ jupyter notebook \
 python -m debugpy --listen 4444 test.py
 ```
 
+```
+fastapi dev main.py
+```
+
 
 ## Enable push to git
 ```
